@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     vite: true
   },
   build: {
-    transpile: ['vuetify', 'vuetify/lib']
+    transpile: ['vuetify', 'vuetify/lib', '@nuxtjs/vuetify']
   },
   buildModules: [
     '@nuxtjs/vuetify'
